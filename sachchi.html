@@ -134,8 +134,8 @@
 <div class="hidden md:flex gap-6">
 <a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200" href="kavach.html">Kavach</a>
 <a class="text-primary font-bold border-b-2 border-secondary pb-1" href="sachchi.html">Sachchi</a>
-<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200" href="sangam-dastaan.html">Sangam</a>
-<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200" href="sangam-dastaan.html">Dastaan</a>
+<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200" href="sangam.html">Sangam</a>
+<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200" href="dastaan.html">Dastaan</a>
 <a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200" href="panah.html">Panah</a>
 </div>
 </div>
@@ -294,7 +294,7 @@
 <!-- Regional Toggle -->
 <div class="bg-surface-container-low p-6 rounded-xl border border-outline-variant">
 <h4 class="font-label-caps text-label-caps text-primary mb-4">REGION-SPECIFIC FILTERS</h4>
-<div class="flex flex-wrap gap-2">
+<div class="region-filter-group flex flex-wrap gap-2">
 <button class="px-4 py-2 rounded-full border border-outline text-caption font-medium hover:bg-primary hover:text-on-primary transition-all">National</button>
 <button class="px-4 py-2 rounded-full border border-outline text-caption font-medium bg-primary text-on-primary">Uttar Pradesh</button>
 <button class="px-4 py-2 rounded-full border border-outline text-caption font-medium hover:bg-primary hover:text-on-primary transition-all">Kerala</button>
@@ -366,8 +366,8 @@
 <ul class="space-y-3 font-body-md text-on-primary-container">
 <li class=""><a class="hover:text-tertiary-fixed-dim transition-colors" href="kavach.html">Kavach Security</a></li>
 <li class=""><a class="hover:text-tertiary-fixed-dim transition-colors" href="sachchi.html">Sachchi Verification</a></li>
-<li class=""><a class="hover:text-tertiary-fixed-dim transition-colors" href="sangam-dastaan.html">Sangam Community</a></li>
-<li class=""><a class="hover:text-tertiary-fixed-dim transition-colors" href="sangam-dastaan.html">Dastaan Archive</a></li>
+<li class=""><a class="hover:text-tertiary-fixed-dim transition-colors" href="sangam.html">Sangam Community</a></li>
+<li class=""><a class="hover:text-tertiary-fixed-dim transition-colors" href="dastaan.html">Dastaan Archive</a></li>
 </ul>
 </div>
 <div>
@@ -407,7 +407,7 @@
         }, 3000);
 
         // Language toggle behavior simulation
-        document.querySelectorAll('.flex-wrap button').forEach(btn => {
+        document.querySelectorAll('.region-filter-group button').forEach(btn => {
             btn.addEventListener('click', function() {
                 this.parentElement.querySelectorAll('button').forEach(b => {
                     b.classList.remove('bg-primary', 'text-on-primary');

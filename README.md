@@ -17,7 +17,8 @@ To deploy this demo, save the code from each screen in the canvas into the follo
 - `/index.html` (SETU Home)
 - `/kavach.html` (Early Warning Dashboard)
 - `/sachchi.html` (Fact-Check Center)
-- `/sangam.html` (Dialogue & Heritage Archive)
+- `/sangam.html` (Community Dialogue)
+- `/dastaan.html` (Memory Archive)
 - `/panah.html` (Displaced Person Support)
 - `/README.md` (This file)
 
