@@ -6,7 +6,6 @@
 *Bridging communities through AI-powered early warning, fact-checking, and dialogue.*
 
 [![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-nishupr.github.io%2Fsetu-6d28d9?style=for-the-badge)](https://nishupr.github.io/setu/)
-[![Built with Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Deployed on GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
 
 </div>
